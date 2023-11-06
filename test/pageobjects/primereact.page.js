@@ -6,7 +6,7 @@ const Page = require('./page');
  */
 class PrimeReactPage extends Page {
     /**
-     * define selectors using getter methods
+     * define selectors
      */
 
     getNameCheckbox (name) {
@@ -15,7 +15,6 @@ class PrimeReactPage extends Page {
 
     /**
      * a method to encapsule automation code to interact with the page
-     * e.g. to login using username and password
      */
 
     async clickNameCheckbox(checkBoxName) {
